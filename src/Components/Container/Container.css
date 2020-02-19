@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+   
+}
+
+.container.principal{
+  
+    background-color: chartreuse;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: darkred;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.image{
+    background-color: fuchsia;
+    height: 10rem;
+}
+
+.information{
+    background-color: darkblue;
+    
+}
+
+.add{
+    background-color: gold;
+}
